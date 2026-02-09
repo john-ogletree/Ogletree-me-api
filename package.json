@@ -1,0 +1,25 @@
+{
+  "name": "ogletree-me-api-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-ogletree/Ogletree-me-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/john-ogletree/Ogletree-me-api/issues"
+  },
+  "homepage": "https://github.com/john-ogletree/Ogletree-me-api#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
