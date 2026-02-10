@@ -2,6 +2,9 @@
   "name": "ogletree-me-api-main",
   "version": "1.0.0",
   "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/john-ogletree/Ogletree-me-api#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "dotenv": "^16.4.5"
   }
 }
