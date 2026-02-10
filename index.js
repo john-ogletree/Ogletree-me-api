@@ -1,9 +1,14 @@
 const express = require('express');
+const path = require('path');
 const app = express();
 const port = 3000;
 
+// Serve static files from the 'Echo-site' directory
+const echoSitePath = path.join(__dirname, '..', 'Echo-site');
+app.use(express.static(echoSitePath));
+
 app.get('/', (req, res) => {
-  res.send('Hello from Ogletree-me-api-main!');
+  res.sendFile(path.join(echoSitePath, 'index.html'));
 });
 
 app.listen(port, () => {
